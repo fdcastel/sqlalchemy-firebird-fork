@@ -50,8 +50,8 @@ classifiers = [
 dependencies = [
     "SQLAlchemy >= 1.4, < 2.0; python_version < '3.8'",
     "fdb; python_version < '3.8'",
-    "SQLAlchemy >= 2.0; python_version >= '3.8'",
-    "firebird-driver; python_version >= '3.8'",
+    "SQLAlchemy >= 2.0.49; python_version >= '3.8'",
+    "firebird-driver >= 2.0.2; python_version >= '3.8'",
     "packaging",
 ]
 dynamic = ["readme", "version"]
